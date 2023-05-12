@@ -30,6 +30,11 @@ jobs:
             cd processing/processing-3.5.4/
             processing-java --sketch=../../NewtonPineappleAnimation --build > output.txt 2>&1 || exit 0
             cat output.txt
+      
+      - name: Rule
+        run: |
+            cd processing/processing-3.5.4/
+            cat output.txt
             
       - name: check build
         uses: AdamFulton/processing-build-action@main
