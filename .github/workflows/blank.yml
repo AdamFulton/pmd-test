@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Processing-pmd code checker
+name: Atelier-PMD code checker
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
     - name: Clone project repoistory
       uses: actions/checkout@v3
       with: 
-           path: './pmd-test'
+           path: './project_code'
         
     
     - name: Set up JDK 11
@@ -42,6 +42,7 @@ jobs:
     - name: Run Atelier-PMD
       run: java -cp ./code_checker/target/atelier-pmd-jar-with-dependencies.jar nl.utwente.atelierpmd.LocalRunner ./
     
-    - uses: jwgmeligmeyling/pmd-github-action@master
+    - name: Generate annotations
+      uses: jwgmeligmeyling/pmd-github-action@master
       with:
          path: '**/output.xml'
