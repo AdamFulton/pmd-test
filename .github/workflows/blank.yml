@@ -24,10 +24,11 @@ jobs:
       - name: Setup Processing
         uses: ifP1/setup-processing@v1.1.1
         
-      - name: call my action
-        uses: AdamFulton/processing-build-action@main
-        with:
-           file-input: NewtonPineappleAnimation/
+      - name: Run processing-java and save output to file
+        run: |
+          cd processing/processing-3.5.4/
+          processing-java --sketch=../../NewtonPineappleAnimation --build
+          sleep 1
       
 
 
