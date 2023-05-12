@@ -22,4 +22,6 @@ jobs:
     steps:
       - name: call my action
         uses: AdamFulton/processing-build-action@main
+        with:
+          file-input: NewtonPineappleAnimation/
    
