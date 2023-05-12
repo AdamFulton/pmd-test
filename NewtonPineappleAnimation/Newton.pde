@@ -2,7 +2,7 @@
 Actor - Example of a thing for COMP1050
  (c) Ansgar 2023
  */
-
+// hello
 class Newton {
 
   float x;
