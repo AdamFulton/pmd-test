@@ -5,7 +5,7 @@ Mouth - Example of a thing for COMP1050
  (c) Ansgar 2023
  */
 
-class test {
+class Test {
 // hello
   float x;
   float y;
