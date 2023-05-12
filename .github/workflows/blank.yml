@@ -28,7 +28,7 @@ jobs:
       - name: Run processing-java and save output to file
         run: |
             cd processing/processing-3.5.4/
-            processing-java --sketch=../../NewtonPineappleAnimation --build > output.txt 2>&1
+            processing-java --sketch=../../NewtonPineappleAnimation --build > output.txt 2>&1 || exit 0
             
       - name: check build
         uses: AdamFulton/processing-build-action@main
