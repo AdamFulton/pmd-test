@@ -35,3 +35,10 @@ jobs:
         distribution: 'temurin'
     - name: Build with Maven
       run: mvn -B package --file ./code_checker/pom.xml
+      
+    - name: Run Atelier-PMD
+      run: java -cp ./code_checker/target/atelier-pmd-jar-with-dependencies.jar nl.utwente.atelierpmd.LocalRunner ./
+    
+    - uses: jwgmeligmeyling/pmd-github-action@master
+      with:
+         path: '**/output.xml'
