@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.31.0" timestamp="2023-05-12T23:50:42.231">
+<file name="NewtonPineappleAnimation/Pineapple.pde">
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="18" rule="FieldNamingConventions" ruleset="Code Style" class="Processing$Pineapple" variable="MAX_RADIUS" externalInfoUrl="https://pmd.github.io/pmd-6.31.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'MAX_RADIUS' does not match the camelCase naming convention.
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="13" rule="FieldNamingConventions" ruleset="Code Style" class="Processing$Pineapple" variable="SPEED" externalInfoUrl="https://pmd.github.io/pmd-6.31.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'SPEED' does not match the camelCase naming convention.
+</violation>
+</file>
+<file name="NewtonPineappleAnimation/Newton.pde">
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="20" rule="FieldNamingConventions" ruleset="Code Style" class="Processing$Newton" variable="TARGET_SPEED" externalInfoUrl="https://pmd.github.io/pmd-6.31.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'TARGET_SPEED' does not match the camelCase naming convention.
+</violation>
+<violation beginline="15" endline="15" begincolumn="9" endcolumn="18" rule="FieldNamingConventions" ruleset="Code Style" class="Processing$Newton" variable="MAX_RADIUS" externalInfoUrl="https://pmd.github.io/pmd-6.31.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'MAX_RADIUS' does not match the camelCase naming convention.
+</violation>
+</file>
+<suppressedviolation filename="Mouth.pde" suppressiontype="annotation" msg="Avoid variables with short names like x" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Mouth.pde" suppressiontype="annotation" msg="Avoid variables with short names like y" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Pineapple.pde" suppressiontype="annotation" msg="Avoid variables with short names like x" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Pineapple.pde" suppressiontype="annotation" msg="Avoid variables with short names like y" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Pineapple.pde" suppressiontype="annotation" msg="Avoid variables with short names like dx" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Pineapple.pde" suppressiontype="annotation" msg="Avoid variables with short names like dy" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Pineapple.pde" suppressiontype="annotation" msg="Avoid variables with short names like mx" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Pineapple.pde" suppressiontype="annotation" msg="Avoid variables with short names like my" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Newton.pde" suppressiontype="annotation" msg="Avoid variables with short names like x" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Newton.pde" suppressiontype="annotation" msg="Avoid variables with short names like y" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Newton.pde" suppressiontype="annotation" msg="Avoid variables with short names like dx" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Newton.pde" suppressiontype="annotation" msg="Avoid variables with short names like dy" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Newton.pde" suppressiontype="annotation" msg="Avoid variables with short names like mx" usermsg=""></suppressedviolation>
+<suppressedviolation filename="Newton.pde" suppressiontype="annotation" msg="Avoid variables with short names like my" usermsg=""></suppressedviolation>
+</pmd>
