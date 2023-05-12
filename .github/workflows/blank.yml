@@ -25,25 +25,8 @@ jobs:
       - name: Setup Processing
         uses: ifP1/setup-processing@v1.1.1
        
-        
-      - name: Run processing-java and save output to file
+      - uses: benthillerkus/processing-problem-matcher@master
+      - name: Build Project
         run: |
-            cd processing/processing-3.5.4/
-            processing-java --sketch=../../NewtonPineappleAnimation --build > output.txt 2>&1 || exit 0
-            cat output.txt
-      
-      - name: Rule
-        run: |
-            cd processing/processing-3.5.4/
-            cat output.txt
-            
-      - name: check build
-        uses: AdamFulton/processing-build-action@main
-        with:
-           file-input: processing/processing-3.5.4/output.txt
-           path-input: NewtonPineappleAnimation
-      
-
-
-        
-   
+          cd processing/processing-3.5.4/
+          processing-java --sketch=../../NewtonPineappleAnimation --build
