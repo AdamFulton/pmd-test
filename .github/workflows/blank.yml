@@ -25,7 +25,7 @@ jobs:
       - name: Setup Processing
         uses: ifP1/setup-processing@v1.1.1
         with:
-          version: 4.1.2
+          version: 4.2
         
       - name: Run processing-java and save output to file
         run: |
