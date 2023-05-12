@@ -7,7 +7,7 @@ Mouth - Example of a thing for COMP1050
 ///
 class Mouth {
 // hello
-  float x;
+  float x
   float y;
   int frownCounter = 0;
   float size;
