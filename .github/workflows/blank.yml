@@ -47,6 +47,6 @@ jobs:
        with:
           name: Atelier-PMD Report
           title: Atelier-PMD Report
-          path: '**/output.xml'
+          path: '**/test.xml'
         
    
