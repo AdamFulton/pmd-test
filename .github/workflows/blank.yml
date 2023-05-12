@@ -24,4 +24,8 @@ jobs:
         uses: AdamFulton/processing-build-action@main
         with:
           file-input: NewtonPineappleAnimation/
+      - name: Run terminal command
+        run: |
+          ls
+        
    
