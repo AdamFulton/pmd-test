@@ -7,8 +7,8 @@ Mouth - Example of a thing for COMP1050
 ///
 class Mouth {
 // hello
-  float x
-  float y
+  float x;
+  float y;
   int frownCounter = 0;
   float size;
 
@@ -21,7 +21,7 @@ class Mouth {
 
 
   void display() {
-    stroke(0);
+    stroke(0)
     strokeWeight(3);
     noFill();
     if (frownCounter == 0) {
