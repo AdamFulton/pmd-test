@@ -4,7 +4,6 @@ Mouth - Example of a thing for COMP1050
  but a nice solution would require concepts like push and pop matrixes, or PVectors for which we do not have the time.
  (c) Ansgar 2023
  */
-///
 class Mouth {
 // hello
   float x;
