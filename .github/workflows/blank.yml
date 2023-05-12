@@ -21,9 +21,9 @@ jobs:
 
     steps:
     - name: Clone project repoistory
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
     - name: Clone processing-pmd repoistory
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
       with:
         repository: AdamFulton/processing-pmd
         path: './code_checker'
