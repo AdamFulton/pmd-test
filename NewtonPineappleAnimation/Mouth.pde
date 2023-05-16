@@ -29,10 +29,10 @@ class Mouth {
       arc(x, y+size/2, size, size, PI, 2*PI);
     }
   }
-  void move(float newX, float newY {
+  void move(float newX, float newY) {
     x = newX;
     y = newY;
-  }
+  
   void animate() {
     
     if (frownCounter > 0) {
