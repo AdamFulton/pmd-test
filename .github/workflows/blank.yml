@@ -40,4 +40,4 @@ jobs:
         uses: AdamFulton/processing-build-action@main
         with:
            file-input: processing/processing-3.5.4/output.txt
-           project-input: NewtonPineappleAnimation
+           path-input: NewtonPineappleAnimation
