@@ -20,7 +20,7 @@ class Mouth {
 
 
   void display() {
-    stroke(0)
+    stroke(0);
     strokeWeight(3);
     noFill();
     if (frownCounter == 0) {
@@ -29,7 +29,7 @@ class Mouth {
       arc(x, y+size/2, size, size, PI, 2*PI);
     }
   }
-  void move(float newX, float newY) {
+  void move(float newX, float newY {
     x = newX;
     y = newY;
   }
