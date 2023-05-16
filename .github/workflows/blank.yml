@@ -24,8 +24,6 @@ jobs:
       - uses: actions/checkout@v3
       - name: Setup Processing
         uses: ifP1/setup-processing@v1.1.1
-        with:
-          version: 4.1.2
         
       - name: Run processing-java and save output to file
         run: |
