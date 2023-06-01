@@ -32,7 +32,7 @@ class Mouth {
   void move(float newX, float newY) {
     x = newX;
     y = newY;
-  
+  }
   void animate() {
     
     if (frownCounter > 0) {
